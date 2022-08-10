@@ -1,8 +1,8 @@
-max = input()
+max = int(input())
 
 tempStrings = list()
 
-for i in range(int(max)):
+for i in range(max):
     tempStrings.append(input())
 
 for word in tempStrings:

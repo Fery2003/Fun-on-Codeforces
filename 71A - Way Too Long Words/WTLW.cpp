@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
     int max;
+
     cin >> max;
 
     string tempStrings[max];
