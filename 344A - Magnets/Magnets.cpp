@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int n, groups = 0;
+    int n, groups = 1;
 
     cin >> n;
 
@@ -21,6 +21,8 @@ int main()
         (a[i] != a[i - 1]) ? groups++ : groups;
         i++;
     }
+
+    cout << groups;
 
     return 0;
 }
