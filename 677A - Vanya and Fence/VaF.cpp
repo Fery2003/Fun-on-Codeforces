@@ -4,15 +4,8 @@ using namespace std;
 
 int main()
 {
-    string in;
     int n, h, minWidth = 0;
-    getline(cin, in);
-
-    int pos;
-
-    pos = in.find(' ');
-    n = stoi(in.substr(0, pos));
-    h = stoi(in.substr(pos, in.length() - 1));
+    cin >> n >> h;
 
     int heights[n];
 
