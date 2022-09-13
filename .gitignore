@@ -5,3 +5,4 @@ LearningCpp.exe
 Codeforces.csproj
 /.vscode
 .fake
+*/**.exe
