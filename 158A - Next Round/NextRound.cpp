@@ -7,15 +7,9 @@ int main()
 
     // is greater than 0 and scores >= a(i + 1)
 
-    string in;
     int n, k, count = 0;
-    getline(cin, in);
 
-    int pos;
-
-    pos = in.find(' ');
-    n = stoi(in.substr(0, pos));
-    k = stoi(in.substr(pos, in.length() - 1));
+    cin >> n >> k;
 
     int a[n];
     for (int i = 0; i < n; i++)
